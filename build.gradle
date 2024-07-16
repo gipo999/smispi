@@ -13,9 +13,9 @@ plugins {
 
 	id 'checkstyle'
 
-	id 'org.openrewrite.rewrite' version '6.16.3'
+	id 'org.openrewrite.rewrite' version '6.16.4'
 
-	id "com.github.spotbugs" version "6.0.18"
+	id "com.github.spotbugs" version "6.0.19"
 
 	id "name.remal.sonarlint" version "4.2.6"
 
@@ -24,9 +24,9 @@ plugins {
 
 
 dependencies {
-	rewrite("org.openrewrite.recipe:rewrite-static-analysis:1.11.0")
+	rewrite("org.openrewrite.recipe:rewrite-static-analysis:1.12.0")
 
-	rewrite("org.openrewrite.recipe:rewrite-java-security:2.10.3")
+	rewrite("org.openrewrite.recipe:rewrite-java-security:2.11.0")
 
 	testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
 
