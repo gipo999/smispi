@@ -104,7 +104,7 @@ spotless {
 	format 'misc', {
 		target '*.gradle', '.gitattributes', '.gitignore'
 
-		targetExclude 'build/**/*', 'node_modules/**/*', 'target/**/*', 'out/**/*', 'dist/**/*', 'bin/**/*'
+		targetExclude 'build/**/*', 'node_modules/**/*', 'target/**/*', 'out/**/*', 'dist/**/*', 'bin/**/*', 'idea/**/*'
 
 		trimTrailingWhitespace()
 
@@ -124,7 +124,7 @@ spotless {
 	format 'styling', {
 		targetExclude 'build/**/*', 'node_modules/**/*', 'target/**/*', 'out/**/*', 'dist/**/*', 'bin/**/*'
 
-		target  '**/*.json', '**/*.yaml', '**/*.toml', '**/*.js', '**/*.cjs', '**/*.mjs'
+		target '**/*.json', '**/*.yaml', '**/*.toml', '**/*.js', '**/*.cjs', '**/*.mjs'
 
 		prettier(['prettier-plugin-toml': '2.0.1']).config(['plugins': ['prettier-plugin-toml']])
 	}
@@ -168,6 +168,7 @@ spotless {
 }
 
 import com.vanniktech.maven.publish.SonatypeHost
+
 mavenPublishing {
 	publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
 
