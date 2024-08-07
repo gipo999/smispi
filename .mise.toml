@@ -1,5 +1,5 @@
 [tools]
 java = "21.0.4+7.0.LTS"
 gradle = "8.7"
-python = "3.12.4"
+python = "3.12.5"
 node = "22.6.0"
