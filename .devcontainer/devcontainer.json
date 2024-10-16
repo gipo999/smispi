@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2@sha256:468fdde10b4dcd013ef25228f50631ee9c4488dfcdeeee3777051efd1137ecb4",
+  "image": "mcr.microsoft.com/devcontainers/universal:2@sha256:a213107c37f45f74f6c29fa835fca8b3da1bf0663b49cdedcd680dcb983887cf",
   "features": {
     "ghcr.io/devcontainers/features/java:1@sha256:5f3ec36d8accba9f48f5b37f8df6555fe1d62f2561f10eeb3641c1aa808a91cd": {},
     "ghcr.io/devcontainers/features/python:1@sha256:3813e9f72e3f858188904be8504f0ccaae53e41a62430b503bc146bd0f072976": {},
