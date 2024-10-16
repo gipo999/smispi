@@ -17,7 +17,7 @@ plugins {
 
 	id "com.github.spotbugs" version "6.0.25"
 
-	id "name.remal.sonarlint" version "4.2.11"
+	id "name.remal.sonarlint" version "4.2.13"
 
 	id 'info.solidsoft.pitest' version '1.15.0'
 }
